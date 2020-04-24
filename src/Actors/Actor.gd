@@ -3,8 +3,7 @@ class_name Actor
 
 
 const FLOOR_NORMAL: = Vector2.UP
-
-export var speed: = Vector2(300.0, 200.0)
+const SPEED: = Vector2(800.0, 300.0)
 export var gravity: = 3000.0
 
 var velocity: = Vector2.ZERO

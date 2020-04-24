@@ -5,7 +5,7 @@ var direction: =Vector2.ZERO
 
 func _physics_process(delta):
 	var direction: = get_direction()
-	velocity = calculate_move_velocity(velocity, direction, speed)
+	velocity = calculate_move_velocity(velocity, direction, Actor.SPEED)
 	velocity = move_and_slide(velocity, FLOOR_NORMAL)
 
 
